@@ -1,0 +1,44 @@
+[
+    {
+        "category": "Data & Analysis",
+        "skills": {
+            "Python" : 4,
+            "SQL": 4,
+            "Pandas" : 4,
+            "NumPy": 4,
+            "R": 2,
+            "EDA": 4,
+            "Statistical Analysis": 3
+        }
+    },
+    {
+        "category": "Modeling & ML",
+        "skills": {
+            "Supervised Learning": 4,
+            "Unsupervised Learning": 4,
+            "Time Series Analysis": 3,
+            "NLP": 3,
+            "Scikit-Learn": 3
+        }
+    },
+    {
+        "category": "Visualization & Apps",
+        "skills": {
+            "Plotly": 4,
+            "Matplotlib": 4,
+            "Seaborn": 4,
+            "Streamlit": 4,
+            "Power BI": 4
+        }
+    },
+    {
+        "category": "Engineering & Ops",
+        "skills": {
+            "Data Pipelines": 4,
+            "Oracle Database": 4,
+            "Docker": 3,
+            "GitHub": 4,
+            "Microsoft Office": 4
+        }
+    }
+]

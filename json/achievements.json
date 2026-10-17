@@ -1,0 +1,181 @@
+{
+  "credentials": [
+    {
+      "id": "cred_05",
+      "shortTitle": "R Programming for Data Science",
+      "title": "R Programming A-Z™: R for Data Science With Real Exercises!",
+      "date": "10-2025",
+      "path": "assets/achievements/credentials/cred_05.jpg",
+      "description": "Udemy course covering R programming and its applications in data science.",
+      "featured": true
+    },
+    {
+      "id": "cred_04",
+      "shortTitle": "AWS Data Engineering Training",
+      "title": "AWS Academy Graduate - Data Engineering",
+      "date": "04-2025",
+      "path": "assets/achievements/credentials/cred_04.png",
+      "description": "40-hour AWS Academy training in data engineering.",
+      "featured": false
+    },
+    {
+      "id": "cred_03",
+      "shortTitle": "AWS Machine Learning Foundations",
+      "title": "AWS Academy Graduate - Machine Learning Foundations",
+      "date": "03-2025",
+      "path": "assets/achievements/credentials/cred_03.png",
+      "description": "20-hour AWS Academy training in machine learning foundations.",
+      "featured": false
+    },
+    {
+      "id": "cred_02",
+      "shortTitle": "Getting Started with Artificial Intelligence",
+      "title": "Getting Started with Artificial Intelligence",
+      "date": "09-2024",
+      "path": "assets/achievements/credentials/cred_02.png",
+      "description": "IBM SkillsBuild credential covering artificial intelligence fundamentals.",
+      "featured": false
+    },
+    {
+      "id": "cred_01",
+      "shortTitle": "Data Science Certificate Course",
+      "title": "Data Science",
+      "date": "09-2023",
+      "path": "assets/achievements/credentials/cred_01.jpg",
+      "description": "50-hour Data Science certificate course organized by Webel Fujisoft Vara Centre.",
+      "featured": false
+    }
+  ],
+  "recognition": [
+    {
+      "id": "rec_04",
+      "shortTitle": "Second Place in Essay Writing",
+      "title": "Second Position — Essay Writing",
+      "date": "03-2026",
+      "path": "assets/achievements/recognition/rec_04.jpg",
+      "description": "Secured second position in Essay Writing at Analytics Global Conference 2026.",
+      "featured": false
+    },
+    {
+      "id": "rec_03",
+      "shortTitle": "Smart India Hackathon Runner-Up",
+      "title": "First Runner-Up — Smart India Hackathon 2025",
+      "date": "09-2025",
+      "path": "assets/achievements/recognition/rec_03.jpg",
+      "description": "Recognized as First Runner-Up at the internal Smart India Hackathon 2025.",
+      "featured": false
+    },
+    {
+      "id": "rec_02",
+      "shortTitle": "Institute Medal — First Position",
+      "title": "Institute Medal — First Position, BCA",
+      "date": "09-2025",
+      "path": "assets/achievements/recognition/rec_02.jpg",
+      "description": "Awarded Institute Medal for securing first position in the 2024 MAKAUT Examination.",
+      "featured": true
+    },
+    {
+      "id": "rec_01",
+      "shortTitle": "Institute Medal — Second Year",
+      "title": "Institute Medal — First Position, Second Year",
+      "date": "09-2023",
+      "path": "assets/achievements/recognition/rec_01.jpg",
+      "description": "Awarded Institute Medal for securing first position in the 2023 MAKAUT Examination.",
+      "featured": true
+    }
+  ],
+  "volunteering": [
+    {
+      "id": "vol_02",
+      "shortTitle": "Volunteer at Analytics Global Conference",
+      "title": "Volunteer — Analytics Global Conference 2026",
+      "date": "03-2026",
+      "path": "assets/achievements/volunteering/vol_02.jpg",
+      "description": "Volunteered at Analytics Global Conference 2026 in Kolkata.",
+      "featured": false
+    },
+    {
+      "id": "vol_01",
+      "shortTitle": "Core Member — TechStorm 2.24",
+      "title": "Core Member — TechStorm 2.24",
+      "date": "04-2024",
+      "path": "assets/achievements/volunteering/vol_01.jpg",
+      "description": "Core member involved in organizing TechStorm 2.24 at B.P. Poddar Institute.",
+      "featured": false
+    }
+  ],
+  "participation": [
+    {
+      "id": "part_08",
+      "shortTitle": "Paper Presentation at AGC 2026",
+      "title": "Paper Presentation — Analytics Global Conference 2026",
+      "date": "03-2026",
+      "path": "assets/achievements/participation/part_08.jpg",
+      "description": "Presented a research paper in the Research Track at AGC 2026.",
+      "featured": false
+    },
+    {
+      "id": "part_07",
+      "shortTitle": "Smart D'bate at AGC 2026",
+      "title": "Smart D'bate — Analytics Global Conference 2026",
+      "date": "03-2026",
+      "path": "assets/achievements/participation/part_07.jpg",
+      "description": "Participated in Smart D'bate at AGC 2026 and received Special Mention.",
+      "featured": false
+    },
+    {
+      "id": "part_06",
+      "shortTitle": "Research Writing Workshop",
+      "title": "Research Writing Workshop",
+      "date": "01-2026",
+      "path": "assets/achievements/participation/part_06.jpg",
+      "description": "Participated in a Research Writing Workshop organized by ASI Kolkata Chapter.",
+      "featured": false
+    },
+    {
+      "id": "part_05",
+      "shortTitle": "Analytics Global Conference 2025",
+      "title": "Analytics Global Conference 2025 — Conference Attendance",
+      "date": "03-2025",
+      "path": "assets/achievements/participation/part_05.jpg",
+      "description": "Attended Analytics Global Conference 2025 at Dhono Dhanya Auditorium, Kolkata.",
+      "featured": false
+    },
+    {
+      "id": "part_04",
+      "shortTitle": "Paper Presentation at AGC 2025",
+      "title": "Paper Presentation — Analytics Global Conference 2025",
+      "date": "03-2025",
+      "path": "assets/achievements/participation/part_04.jpg",
+      "description": "Presented a research paper in the Research Track at AGC 2025.",
+      "featured": false
+    },
+    {
+      "id": "part_03",
+      "shortTitle": "India's Statistical System Workshop",
+      "title": "Insights into India's Statistical System",
+      "date": "12-2024",
+      "path": "assets/achievements/participation/part_03.png",
+      "description": "Participated in a workshop on India's Statistical System at NSHM Kolkata.",
+      "featured": false
+    },
+    {
+      "id": "part_02",
+      "shortTitle": "Generative AI Industry Workshop",
+      "title": "Industry Workshop on Generative AI",
+      "date": "07-2024",
+      "path": "assets/achievements/participation/part_02.jpg",
+      "description": "Participated in an industry workshop on Generative AI organized by CSI Kolkata.",
+      "featured": false
+    },
+    {
+      "id": "part_01",
+      "shortTitle": "Data Science Workshop",
+      "title": "Workshop on Data Science",
+      "date": "04-2024",
+      "path": "assets/achievements/participation/part_01.jpg",
+      "description": "Participated in a Data Science workshop organized by CSI Kolkata.",
+      "featured": false
+    }
+  ]
+}

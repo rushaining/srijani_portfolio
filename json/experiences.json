@@ -1,0 +1,118 @@
+[
+    {
+        "id": "nshm",
+        "organization": "NSHM Knowledge Campus",
+        "location": "Kolkata, India",
+        "roles": [
+            {
+                "id": "msc-dsa",
+                "type": "EDUCATION",
+                "title": "M.Sc. Data Science & Analytics",
+                "startDate": null,
+                "endDate": "2026-07",
+                "description": [
+                    "CGPA: 9.46",
+                    "Ranked 1st in the entire M.Sc. Data Science & Analytics programme.",
+                    "Led creative design for Analytics Global Conference 2026, creating printables, banners, flex designs, covers, and event branding."
+                ],
+                "shortDescription": "Completed my Post Graduation.",
+                "featured": true
+            }
+        ]
+    },
+    {
+        "id": "uptoskills",
+        "organization": "UptoSkills",
+        "location": "Remote",
+        "roles": [
+            {
+                "id": "uptoskills-int",
+                "type": "INTERNSHIP",
+                "title": "Data Mining and Analytics Intern",
+                "startDate": "2025-10",
+                "endDate": "2026-01",
+                "description": [
+                    "Restructured 600+ institutional records, resolving hierarchical inconsistencies to improve analytical reliability.",
+                    "Standardized 20+ data fields via accreditation portals and quality-control annotations for data accuracy.",
+                    "Engineered pattern-recognition methods to resolve data ambiguity, reduce errors, and accelerate workflows."
+                ],
+                "shortDescription": "Restructured, standardized, and validated institutional data.",
+                "featured": true
+            }
+        ]
+    },
+    {
+        "id": "technocolabs",
+        "organization": "Technocolabs Software Inc.",
+        "location": "Remote",
+        "roles": [
+            {
+                "id": "technocolabs-int",
+                "type": "INTERNSHIP",
+                "title": "Machine Learning Engineer Intern",
+                "startDate": "2025-07",
+                "endDate": "2025-09",
+                "description": [
+                    "Secured production deployment by achieving 99% accuracy through intensive XGBoost hyperparameter tuning.",
+                    "Led a four-member team to architect and evaluate XGBoost, Gradient Boosting, and Linear Regression models.",
+                    "Optimized datasets via multivariate EDA and feature reduction techniques to boost predictive performance."
+                ],
+                "shortDescription": "Optimized predictive models for accuracy.",
+                "featured": true
+            }
+        ]
+    },
+    {
+        "id": "bppimt",
+        "organization": "B. P. Poddar Institute of Management & Technology",
+        "location": "Kolkata, India",
+        "roles": [
+            {
+                "id": "bca",
+                "type": "EDUCATION",
+                "title": "Bachelor of Computer Applications",
+                "startDate": null,
+                "endDate": "2024-07",
+                "description": [
+                    "CGPA: 8.93",
+                    "Ranked 1st overall in the BCA programme and 1st in the second year.",
+                    "Contributed to Techstorm 2.24 branding, gate flex design, event materials, and on-ground management."
+                ],
+                "shortDescription": null,
+                "featured": false
+            }
+        ]
+    },
+    {
+        "id": "jds",
+        "organization": "Julien Day School, Ganganagar",
+        "location": "Kolkata, India",
+        "roles": [
+            {
+                "id": "isc",
+                "type": "EDUCATION",
+                "title": "Indian School Certificate — ISC",
+                "startDate": null,
+                "endDate": "2021",
+                "description": [
+                    "Percentage: 83.3%",
+                    "Subjects: Mathematics, Physics, Chemistry, and Computer Applications."
+                ],
+                "shortDescription": null,
+                "featured": false
+            },
+            {
+                "id": "icse",
+                "type": "EDUCATION",
+                "title": "Indian Certificate of Secondary Education — ICSE",
+                "startDate": null,
+                "endDate": "2019",
+                "description": [
+                    "Percentage: 82.6%."
+                ],
+                "shortDescription": null,
+                "featured": false
+            }
+        ]
+    }
+]

@@ -1,0 +1,99 @@
+
+[
+    {
+        "id": "agc2026_backdrop_01",
+        "title": "AGC26 Smart D'Bate Presentation Design",
+        "type": "Event Branding & Presentation Design",
+        "image": "assets/creative/agc2026/agc2026_backdrop_01.JPG",
+        "description": "Presentation and backdrop design created for Smart D'Bate at Analytics Global Conference 2026.",
+        "featured": false
+    },
+    {
+        "id": "agc2026_backdrop_02",
+        "title": "AGC26 Speaker Presentation Design",
+        "type": "Event Branding & Presentation Design",
+        "image": "assets/creative/agc2026/agc2026_backdrop_02.JPG",
+        "description": "Speaker presentation and backdrop design for Analytics Global Conference 2026.",
+        "featured": true
+    },
+    {
+        "id": "agc26_delegate_bag",
+        "title": "AGC26 Delegate Bag Design",
+        "type": "Event Branding & Printables",
+        "image": "assets/creative/agc2026/agc2026_bag.png",
+        "description": "Custom mandala artwork and event branding for delegate bags at Analytics Global Conference 2026.",
+        "featured": true
+    },
+    {
+        "id": "agc2026_branding_01",
+        "title": "AGC26 Entrance Branding",
+        "type": "Event Branding & Printables",
+        "image": "assets/creative/agc2026/agc2026_branding_01.JPG",
+        "description": "Entrance branding and signage designed for Analytics Global Conference 2026.",
+        "featured": false
+    },
+    {
+        "id": "agc2026_branding_02",
+        "title": "AGC26 Event Backdrop",
+        "type": "Event Branding & Printables",
+        "image": "assets/creative/agc2026/agc2026_branding_02.JPG",
+        "description": "Event backdrop design created for Analytics Global Conference 2026.",
+        "featured": false
+    },
+    {
+        "id": "bppimt-teachers-day-2023",
+        "title": "Teachers' Day 2023 Poster",
+        "type": "Event Poster Design",
+        "image": "assets/creative/bppimt/invitation_poster_01.png",
+        "description": "Teachers' Day 2023 event poster designed for B.P. Poddar Institute of Management and Technology.",
+        "featured": true
+    },
+    {
+        "id": "techstorm2024_entrance",
+        "title": "TechStorm 2.24 Entrance Branding",
+        "type": "Event Branding & Printables",
+        "image": "assets/creative/bppimt/techstorm_branding_01.jpg",
+        "description": "Entrance branding and visual design for TechStorm 2.24 at B.P. Poddar Institute of Management and Technology.",
+        "featured": false
+    },
+    {
+        "id": "digital_01",
+        "title": "Digital Illustration",
+        "type": "Digital Art",
+        "image": "assets/creative/personal/digital_01.jpg",
+        "description": "Digital illustration inspired by a music album.",
+        "featured": false
+    },
+    {
+        "id": "digital_02",
+        "title": "Balcony Landscape",
+        "type": "Digital Art",
+        "image": "assets/creative/personal/digital_02.jpg",
+        "description": "Digital landscape inspired by a balcony view.",
+        "featured": false
+    },
+    {
+        "id": "trad_01",
+        "title": "Pointillist Illustration",
+        "type": "Traditional Art",
+        "image": "assets/creative/personal/trad_01.jpeg",
+        "description": "Traditional illustration created using pointillism.",
+        "featured": false
+    },
+    {
+        "id": "trad_02",
+        "title": "Illustrated Cat",
+        "type": "Traditional Art",
+        "image": "assets/creative/personal/trad_02.jpeg",
+        "description": "Hand-drawn cat illustration using acrylic markers.",
+        "featured": false
+    },
+    {
+        "id": "trad_03",
+        "title": "Portrait Study",
+        "type": "Traditional Art",
+        "image": "assets/creative/personal/trad_03.jpeg",
+        "description": "Traditional portrait study using gouache.",
+        "featured": false
+    }
+]

@@ -1,0 +1,87 @@
+[
+    {
+        "id": "economic-shield",
+        "year": "2027",
+        "type": "RESEARCH",
+        "authors": ["Srijani Das", "Kaushik Ghosh"],
+
+        "title": "Machine Learning as an Economic Shield: Decision Support Forecasting of Agricultural Price Volatility for Smallholder Farmers in West Bengal",
+        "shortTitle": "Machine Learning as an Economic Shield",
+
+        "description": "A hyper-local machine learning framework for forecasting district-level crop prices in West Bengal, comparing ARIMA, XGBoost, and Random Forest. It identifies local price volatility and converts forecasts into threshold-based risk signals for proactive agricultural credit and policy support.",
+        "shortDescription": "Decision Support Forecasting of Agricultural Price Volatility for Smallholder Farmers in West Bengal.",
+
+        "tags": ["Machine Learning", "Economic Forecasting", "Agriculture", "West Bengal"],
+        "image": null,
+        "featured": false,
+        "link": null
+    },
+    {
+        "id": "risk-engine",
+        "year": "2026",
+        "type": "PROJECT",
+        "authors": [],
+
+        "title": "Multimodal Semantic Risk Engine: Assessing US Macroeconomic Stress via Historical Analogue Retrieval",
+        "shortTitle": "Multimodal Semantic Risk Engine",
+
+        "description": "A multimodal risk engine that takes a natural-language description of a current economic stress scenario and retrieves structurally similar events from a 1973–present historical database. It combines financial indicators with NYT news embeddings to identify the top 5 semantic analogues, classify their economic regime, and examine subsequent S&P 500 volatility and maximum drawdown.",
+        "shortDescription": "Historical analogue retrieval for understanding macroeconomic stress.",
+
+        "tags": ["Python", "Machine Learning", "NLP", "Streamlit"],
+        "image": "assets/works/risk-engine.jpg",
+        "featured": true,
+        "link": "https://srijani.srsfintech.in/"
+    },
+    {
+        "id": "fear-volatility",
+        "year": "2026",
+        "type": "RESEARCH",
+        "authors": ["Rajib Bhattacharya", "Kaushik Ghosh", "Srijani Das"],
+
+        "title": "Fear, Volatility, and Market Segmentation: Evidence of Asymmetric Spillovers in Indian Equity Markets Using Hybrid CNN–LSTM Models",
+        "shortTitle": "Fear, Volatility, and Market Segmentation",
+
+        "description": "The study examines how market fear, represented by India VIX, influences volatility across different segments of the Indian equity market. Using daily data from 2020–2025 and a hybrid CNN–LSTM framework, the study finds that India VIX can anticipate future market volatility, with mid-cap and small-cap stocks showing stronger and more persistent reactions to fear-driven shocks.",
+        "shortDescription": "Evidence of Asymmetric Spillovers in Indian Equity Markets Using Hybrid CNN–LSTM Models.",
+
+        "tags": ["India VIX", "Volatility Spillovers", "Deep Learning"],
+        "image": "assets/works/fear-volatility.jpg",
+        "featured": true,
+        "link": "https://zenodo.org/records/22125644"
+    },
+    {
+        "id": "student-performance",
+        "year": "2025",
+        "type": "RESEARCH",
+        "authors": ["Srijani Das", "Madhurima Paul"],
+
+        "title": "The Interwoven Factors that Shape the Performance of an Indian Student – An Analysis",
+        "shortTitle": "Factors Behind Performance of an Indian Student",
+
+        "description": "This study examines the factors that shape student performance and well-being in India, considering living arrangements, dietary habits, self-care routines, commuting behaviors, and entertainment consumption. Using a dataset collected across different ages and educational backgrounds, the research explores the multifaceted factors associated with academic success and the changing Indian student experience.",
+        "shortDescription": "A study of how lifestyle and daily habits shape student performance and well-being in India.",
+
+        "tags": ["Student Lifestyle", "Data Analysis", "Academic Success", "Indian Education"],
+        "image": "assets/works/student-performance.png",
+        "featured": true,
+        "link": "https://zenodo.org/records/17294548"
+    },
+    {
+        "id": "data-edification",
+        "year": "2024",
+        "type": "PROJECT",
+        "authors": [],
+
+        "title": "Data Edification: Navigating Insights with an Interactive Dashboard",
+        "shortTitle": "Data Edification",
+
+        "description": "A user-friendly data exploration platform where users can upload datasets, preprocess and clean them, perform basic EDA, and create interactive visualizations without extensive coding knowledge. It supports missing-value imputation, duplicate removal, correlation analysis, regression, K-means clustering, and a wide range of interactive charts.",
+        "shortDescription": "Navigating Insights with an Interactive Dashboard.",
+
+        "tags": ["Python", "Pandas", "Scikit-Learn", "Streamlit", "Group Project"],
+        "image": null,
+        "featured": false,
+        "link": "https://edifire.streamlit.app/"
+    }
+]
