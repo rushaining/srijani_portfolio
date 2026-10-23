@@ -16,11 +16,31 @@ body {
     background-color: var(--bg-color);
     color: var(--text-main);
     font-family: var(--font-sans);
+    min-width: 1024px;
 }
 
 a { text-decoration: none; color: inherit; }
 
-/* --- HEADER & NAV --- */
+/* ==========================================
+   GLOBAL LAYOUT & STRUCTURE
+   ========================================== */
+.notebook-container { 
+    max-width: 950px; 
+    min-width: 950px;
+    margin: 40px auto; 
+    padding: 0 24px; 
+}
+.notebook-section { margin-bottom: 60px; }
+
+.scroll-reveal { opacity: 0; transform: translateY(20px); transition: opacity 0.8s ease, transform 0.8s ease; }
+.scroll-reveal.in-view { opacity: 1; transform: translateY(0); }
+
+pre { margin: 0; font-family: var(--font-mono); font-size: 0.85rem; line-height: 1.5; }
+.keyword { font-weight: bold; }
+
+/* ==========================================
+   HEADER & NAVIGATION
+   ========================================== */
 .sticky-header-container {
     position: sticky;
     top: 0;
@@ -79,16 +99,14 @@ a { text-decoration: none; color: inherit; }
 
 .share-icon { width: 24px; height: 24px; fill: var(--text-main); cursor: pointer; }
 
-/* --- PROFILE PICTURE & HOME LINK --- */
 .profile-pic-link {
     display: block;
     width: 60px; 
     height: 60px; 
     border-radius: 50%;
-    /* Uses the exact same soft translucent accent blue as your image wrappers! */
     background-color: hsla(239, 60%, 67%, 0.15); 
     border: 2px solid var(--text-main);
-    overflow: hidden; /* Guarantees the image stays perfectly circular */
+    overflow: hidden; 
     transition: transform 0.2s ease, border-color 0.2s ease;
     cursor: pointer;
 }
@@ -100,6 +118,9 @@ a { text-decoration: none; color: inherit; }
     display: block;
 }
 
+/* ==========================================
+   EXECUTION BAR
+   ========================================== */
 .execution-bar {
     display: flex; justify-content: space-between;
     background-color: #ebecf9; 
@@ -134,13 +155,9 @@ a { text-decoration: none; color: inherit; }
 
 .divider { margin: 0 12px; color: rgba(94, 96, 216, 0.4); }
 
-/* --- NOTEBOOK LAYOUT --- */
-.notebook-container { max-width: 950px; margin: 40px auto; padding: 0 24px; }
-.notebook-section { margin-bottom: 60px; }
-
-.scroll-reveal { opacity: 0; transform: translateY(20px); transition: opacity 0.8s ease, transform 0.8s ease; }
-.scroll-reveal.in-view { opacity: 1; transform: translateY(0); }
-
+/* ==========================================
+   NOTEBOOK CELLS
+   ========================================== */
 .markdown-cell { margin-bottom: 16px; margin-left: 60px; }
 .markdown-cell .greeting { font-family: var(--font-mono); font-size: 0.9rem; margin: 0 0 4px 0; }
 .markdown-cell h1 { font-size: 2rem; margin: 0 0 4px 0; font-weight: 700; }
@@ -186,9 +203,6 @@ a { text-decoration: none; color: inherit; }
 
 @keyframes spin { 100% { transform: rotate(360deg); } }
 
-pre { margin: 0; font-family: var(--font-mono); font-size: 0.85rem; line-height: 1.5; }
-.keyword { font-weight: bold; }
-
 .output-cell { 
     padding: 24px; display: none; opacity: 0; 
     transition: opacity 0.5s ease; 
@@ -197,8 +211,9 @@ pre { margin: 0; font-family: var(--font-mono); font-size: 0.85rem; line-height:
 .output-cell.visible { display: block; opacity: 1; }
 .view-more { display: block; margin-top: 20px; font-family: var(--font-mono); font-size: 0.85rem; font-weight: bold; color: var(--text-main); }
 
-
-/* --- SHARED CARD UTILITIES --- */
+/* ==========================================
+   SHARED CARD UTILITIES
+   ========================================== */
 .card-title {
     margin: 0 0 16px 0;
     font-size: 0.95rem;
@@ -247,7 +262,6 @@ pre { margin: 0; font-family: var(--font-mono); font-size: 0.85rem; line-height:
     display: flex; justify-content: space-between; align-items: center; margin-top: auto;
 }
 
-/* The Pills */
 .pill { 
     padding: 4px 12px; 
     border-radius: 12px; 
@@ -266,7 +280,6 @@ pre { margin: 0; font-family: var(--font-mono); font-size: 0.85rem; line-height:
 .pill.volunteering { background-color: #2b2c60; }
 .pill.participation { background-color: #17645f; } 
 
-/* The Arrows (Updated for SVG) */
 .arrow { 
     display: inline-flex; 
     align-items: center; 
@@ -277,7 +290,6 @@ pre { margin: 0; font-family: var(--font-mono); font-size: 0.85rem; line-height:
     fill: currentColor; 
     transition: transform 0.2s ease;
 }
-
 
 .works-grid, .achievements-grid, .creative-grid { 
     display: grid; 
@@ -296,7 +308,9 @@ pre { margin: 0; font-family: var(--font-mono); font-size: 0.85rem; line-height:
 
 .bg-dark { background-color: #0b1115; }
 
-/* --- STATS CHART --- */
+/* ==========================================
+   STATS SECTION (HOME PAGE)
+   ========================================== */
 .stats-chart-container { 
     display: flex; justify-content: space-around; align-items: flex-end; 
     height: 200px; margin-top: 20px; border: 1px solid var(--border-color); 
@@ -309,13 +323,16 @@ pre { margin: 0; font-family: var(--font-mono); font-size: 0.85rem; line-height:
 .stat-label { position: absolute; bottom: -30px; font-family: var(--font-sans); font-size: 0.8rem; text-align: center; white-space: nowrap; color: var(--text-main); }
 .curiosity-bar { position: relative; z-index: 2; }
 
-/* --- SKILLS GRID --- */
+/* ==========================================
+   SKILLS SECTION (HOME PAGE)
+   ========================================== */
 .skills-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 40px; text-align: center; }
 .skill-spider { display: flex; flex-direction: column; align-items: center; justify-content: center; font-family: var(--font-mono); font-size: 0.9rem; border: 1px solid var(--border-color); border-radius: 12px; padding: 24px 16px; }
 .skill-spider canvas { width: 100% !important; height: auto !important; max-height: 260px; }
 
-
-/* --- WORKS FULL LIST PAGE --- */
+/* ==========================================
+   WORKS PAGE (FULL LIST)
+   ========================================== */
 .work-list-item {
     display: flex;
     justify-content: space-between;
@@ -397,16 +414,16 @@ pre { margin: 0; font-family: var(--font-mono); font-size: 0.85rem; line-height:
     pointer-events: none; 
 }
 
-/* --- EXPERIENCE TIMELINE & HIERARCHY --- */
+/* ==========================================
+   EXPERIENCE PAGE (TIMELINE)
+   ========================================== */
 .timeline-container { padding: 5px 0; margin-left: 30px; }
 .timeline-item { margin-bottom: 16px; display: flex; position: relative; } 
 .time-date { width: 170px; flex-shrink: 0; text-align: right; padding-right: 32px; font-family: var(--font-mono); font-size: 0.85rem; font-weight: bold; margin-top: 2px;}
 .time-content { flex-grow: 1; padding-left: 32px; }
 
-/* Override global dot */
 .timeline-item::before { display: none; }
 
-/* The Continuous Dotted Line in the Background */
 .timeline-item::after { 
     content: ''; 
     position: absolute; 
@@ -418,21 +435,18 @@ pre { margin: 0; font-family: var(--font-mono); font-size: 0.85rem; line-height:
 }
 .timeline-item:last-child::after { display: none !important; }
 
-/* Centered Big Dot (Organization) */
 .timeline-item.org-node::before {
     content: ''; position: absolute; left: 171px; top: 5px; width: 14px; height: 14px;
     background: var(--accent-dark); border-radius: 50%; z-index: 2; display: block;
     transform: translateX(-50%);
 }
 
-/* Centered Small Dot (Role) */
 .timeline-item.role-node::before {
     content: ''; position: absolute; left: 171px; top: 8px; width: 9px; height: 9px;
     background: var(--accent-dark); border-radius: 50%; z-index: 2; display: block;
     transform: translateX(-50%);
 }
 
-/* Typography for Main Page */
 .org-title {
     font-family: var(--font-sans); 
     font-size: 1.0rem; font-weight: bold; color: var(--text-main);
@@ -448,7 +462,6 @@ pre { margin: 0; font-family: var(--font-mono); font-size: 0.85rem; line-height:
     font-size: 0.85rem; color: var(--text-muted); line-height: 1.5;
 }
 
-/* Typography for Full Experience Page */
 .role-header {
     display: flex; align-items: center; gap: 8px; margin-bottom: 6px; margin-top: 2px;
 }
@@ -496,7 +509,9 @@ pre { margin: 0; font-family: var(--font-mono); font-size: 0.85rem; line-height:
     margin-bottom: 2px; 
 }
 
-/* --- CONTACT SECTION --- */
+/* ==========================================
+   CONTACT SECTION
+   ========================================== */
 .contact-links-row { display: flex; justify-content: space-around; align-items: center; font-family: var(--font-mono); font-size: 0.95rem; font-weight: bold; color: var(--text-main); padding: 10px 0; }
 
 .contact-item { 
@@ -512,12 +527,13 @@ pre { margin: 0; font-family: var(--font-mono); font-size: 0.85rem; line-height:
 }
 .contact-item:hover { color: var(--accent-dark); text-decoration: none; }
 
-/* --- CARD HOVER EFFECTS & MODAL TWEAKS --- */
+/* ==========================================
+   CARDS, HOVERS & MODAL POPUP
+   ========================================== */
 .work-card, .achieve-card, .creative-card { 
     transition: transform 0.2s ease, box-shadow 0.2s ease; 
 }
 
-/* Only add pointer cursor to achieve/creative because they open modals */
 .achieve-card, .creative-card {
     cursor: pointer;
 }
@@ -534,7 +550,6 @@ pre { margin: 0; font-family: var(--font-mono); font-size: 0.85rem; line-height:
     margin-right: 4px; 
 }
 
-/* Modal Overlay */
 .modal-overlay {
     display: none; 
     position: fixed; 
